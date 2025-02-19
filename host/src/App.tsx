@@ -3,7 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-const ViteRemote = React.lazy(() => import('vite/App'));
+const ViteRemote = lazy(() => import('vite/App'));
+
+const RsbuildRemote = lazy(() => import('rsbuild/App'));
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +23,9 @@ function App() {
       <h1>Vite + React</h1>
       <Suspense>
         <ViteRemote />
+      </Suspense>
+      <Suspense>
+        <RsbuildRemote />
       </Suspense>
       </>
   )

@@ -15,6 +15,11 @@ export default defineConfig({
           type: "module",
           entry: "http://localhost:4000/remoteEntry.js",
         },
+        rsbuild: {
+          name: "rsbuild",
+          type: "module",
+          entry: "http://localhost:4002/remoteEntry.js",
+        }
       },
       shared: ['react', 'react-dom'],
     }),
