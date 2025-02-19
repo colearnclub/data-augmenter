@@ -1,0 +1,4 @@
+packages:
+  - host
+  - rsbuild-remote
+  - vite-remote

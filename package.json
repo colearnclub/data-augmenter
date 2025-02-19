@@ -1,0 +1,12 @@
+{
+    "name": "data-aug",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "pnpm -filter \"vite-*\" dev"
+    },
+    "author": "mps",
+    "dependencies": {
+        "@module-federation/vite": "1.2.2"
+    }
+}
